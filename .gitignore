@@ -8,3 +8,14 @@ wheels/
 
 # Virtual environments
 .venv
+
+# IDE's
+.vscode/
+.idea/
+
+# Configuration
+.env
+config.toml
+
+# Allow templates
+!*.example
