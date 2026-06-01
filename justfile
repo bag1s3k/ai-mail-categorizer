@@ -1,3 +1,5 @@
+set shell := ["powershell"]
+
 uv_cmd := "uv run"
 
 run:
@@ -12,3 +14,6 @@ format path="":
 
 check path="" fix="":
     @{{uv_cmd}} ruff check {{fix}} {{path}}
+
+watch:
+    @{{uv_cmd}} ruff check --watch
