@@ -7,7 +7,7 @@ def setup_logging():
     logger.setLevel(logging.DEBUG)
 
     formatter = logging.Formatter(
-        fmt="{levelname:8} {asctime} {name} - {message}",
+        fmt="{levelname:8} {asctime} - {message}",
         datefmt="%d.%m.%Y %H:%M:%S",
         style="{",
     )
