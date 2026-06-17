@@ -1,5 +1,3 @@
-set shell := ["powershell"]
-
 uv_cmd := "uv run"
 
 run:
